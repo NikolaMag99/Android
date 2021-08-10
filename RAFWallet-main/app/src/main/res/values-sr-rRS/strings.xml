@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="novcanikLoginTekst">Novcanik sistem za studente RAF-a</string>
+    <string name="prijavaLogin">Prijava</string>
+    <string name="unesite_sifru">Unesite sifru</string>
+    <string name="unesite_ime_banke">Unesite ime banke</string>
+    <string name="unesite_prezime">Unesite prezime</string>
+    <string name="unesite_ime">Unesite ime</string>
+    <string name="stanje">Stanje</string>
+    <string name="unos">Unos</string>
+    <string name="liste">Liste</string>
+    <string name="profil">Profil</string>
+    <string name="razlika">Razlika</string>
+    <string name="rashod">Rashod</string>
+    <string name="prihod">Prihod</string>
+    <string name="naslov">Naslov</string>
+    <string name="kolicina">Količina</string>
+    <string name="audio">Audio</string>
+    <string name="opis">Opis</string>
+    <string name="dodaj_u_listu">Dodaj u listu</string>
+    <string name="podaci_o_korisniku">Podaci o korisniku</string>
+    <string name="ime">Ime:</string>
+    <string name="prezime">Prezime:</string>
+    <string name="banka">Banka:</string>
+    <string name="izmeni">Izmeni</string>
+    <string name="odjava_Main">Odjava</string>
+    <string name="izmeni_Main">Izmeni</string>
+    <string name="banka_Main">Banka:</string>
+    <string name="prezime_Main">Prezime:</string>
+    <string name="ime_Main">Ime:</string>
+    <string name="podaci_o_korisniku_Main">Podaci o korisniku</string>
+    <string name="podaci_o_korisniku_Unos">Podaci o korisniku</string>
+    <string name="podaci_o_prihodu_rashodu">Podaci o prihodu/rashodu</string>
+    <string name="naslov_edit">Naslov</string>
+    <string name="kolicina_edit">Kolicina</string>
+    <string name="opis_edit">Opis</string>
+    <string name="odustani_edit">Odustani</string>
+    <string name="izmeni_edit">Izmeni</string>
+    <string name="opis_edit_ras_pri">Opis:</string>
+    <string name="naslov_podaci">Naslov:</string>
+    <string name="kolicina_podaci">Kolicina:</string>
+    <string name="opis_podaci">Opis:</string>
+    <string name="podaci_o_prihodu_rashodu_podaci">Podaci o prihodu/rashodu</string>
+    <string name="podaci_o_prihodu_rashodu_edit">Podaci o prihodu/rashodu</string>
+    <string name="pregled_ukupnog_stanja_racuna">Pregled ukupnog stanja racuna</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/unosFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/podaciKorisnika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/podaci_o_korisniku_Unos" />
+
+        <Spinner
+            style="@style/TextViewStyle"
+            android:id="@+id/aSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left"
+            android:entries="@array/Spinner_items"/>
+
+        <EditText
+            style="@style/TextViewStyle"
+            android:id="@+id/naslov"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:hint="@string/naslov"
+            android:inputType="text"/>
+        <EditText
+            style="@style/TextViewStyle"
+            android:id="@+id/kolicina"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:hint="@string/kolicina"
+            android:inputType="text"/>
+
+        <CheckBox
+            style="@style/TextViewStyle"
+            android:id="@+id/audioCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:text="@string/audio"/>
+
+            <EditText
+                style="@style/TextViewStyle"
+                android:id="@+id/opis"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/opis" />
+
+
+        <ImageView
+            android:id="@+id/btnMic"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_mic"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/btnRecording"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_mic"
+            android:visibility="gone"
+            app:tint="@android:color/holo_red_light" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/dodajUListuBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             android:text="@string/dodaj_u_listu"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="novcanikLoginTekst">Wallet system for RAF students</string>
+    <string name="prijavaLogin">Check-in</string>
+    <string name="unesite_sifru">Enter the code</string>
+    <string name="unesite_ime_banke">Enter the bank name</string>
+    <string name="unesite_prezime">Enter last name</string>
+    <string name="unesite_ime">Enter first name</string>
+    <string name="profil">Profil</string>
+    <string name="liste">Lists</string>
+    <string name="unos">Add</string>
+    <string name="stanje">Balance</string>
+    <string name="razlika">The difference:</string>
+    <string name="opis">Description</string>
+    <string name="audio">Audio</string>
+    <string name="kolicina">Quantity</string>
+    <string name="naslov">Title</string>
+    <string name="prihod">Income:</string>
+    <string name="rashod">Expenses:</string>
+    <string name="dodaj_u_listu">Add in lists</string>
+    <string name="izmeni">Change</string>
+    <string name="banka">Bank:</string>
+    <string name="prezime">Surname:</string>
+    <string name="ime">Name:</string>
+    <string name="podaci_o_korisniku">User data</string>
+    <string name="podaci_o_korisniku_Main">User data</string>
+    <string name="ime_Main">Name:</string>
+    <string name="prezime_Main">Surname:</string>
+    <string name="banka_Main">Bank:</string>
+    <string name="izmeni_Main">Change</string>
+    <string name="odjava_Main">Logout</string>
+    <string name="podaci_o_korisniku_Unos">User data</string>
+    <string name="opis_edit_ras_pri">Description:</string>
+    <string name="izmeni_edit">Change</string>
+    <string name="odustani_edit">Cancel</string>
+    <string name="opis_edit">Description</string>
+    <string name="kolicina_edit">Quantity</string>
+    <string name="naslov_edit">Title</string>
+    <string name="podaci_o_prihodu_rashodu">Income and expenses data</string>
+    <string name="podaci_o_prihodu_rashodu_podaci">Income and expenses data</string>
+    <string name="podaci_o_prihodu_rashodu_edit">Income and expenses data</string>
+    <string name="naslov_podaci">Title:</string>
+    <string name="kolicina_podaci">Quantity:</string>
+    <string name="opis_podaci">Description:</string>
+    <string name="pregled_ukupnog_stanja_racuna">Overview of the total account balance</string>
+</resources>

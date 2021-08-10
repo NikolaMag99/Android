@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profilFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/podaciKorisnika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/podaci_o_korisniku_Main" />
+
+        <ImageView
+            style="@style/ImageViewStyle"
+            android:id="@+id/dolarSlika"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/dolar"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/ime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20sp"
+            android:text="@string/ime_Main"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/ImeSaLogin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/prezime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20sp"
+            android:text="@string/prezime_Main"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/PrezimeSaLogin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/banka"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20sp"
+            android:text="@string/banka_Main"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/BankaSaLogin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/izmeniBtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:text="@string/izmeni_Main" />
+        <Button
+            android:id="@+id/odjavaBtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/odjava_Main" />
+    </LinearLayout>
+
+</LinearLayout>
